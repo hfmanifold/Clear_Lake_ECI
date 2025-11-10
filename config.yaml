@@ -22,9 +22,15 @@ gages:
         column_name: "Lvl_ft_Avg"
         unit: "feet"
         display_name: "Water Level"
-      temperature:
+      temperature_c:
         column_name: "Temp_C_Avg"
         unit: "°C"
+        display_name: "Water Temperature (C)"
+        display: false
+      temperature_f:
+        type: "calculated"
+        formula: "(temperature_c * 9/5) + 32"
+        unit: "°F"
         display_name: "Water Temperature"
       
   harry_tetters:
@@ -37,9 +43,15 @@ gages:
         column_name: "Lvl_ft_Avg"
         unit: "feet"
         display_name: "Water Level"
-      temperature:
+      temperature_c:
         column_name: "Temp_C_Avg"
         unit: "°C"
+        display_name: "Water Temperature (C)"
+        display: false
+      temperature_f:
+        type: "calculated"
+        formula: "(temperature_c * 9/5) + 32"
+        unit: "°F"
         display_name: "Water Temperature"
         
   outflow:
@@ -52,7 +64,13 @@ gages:
         column_name: "Lvl_ft_Avg"
         unit: "feet"
         display_name: "Water Level"
-      temperature:
+      temperature_c:
         column_name: "Temp_C_Avg"
         unit: "°C"
+        display_name: "Water Temperature (C)"
+        display: false
+      temperature_f:
+        type: "calculated"
+        formula: "(temperature_c * 9/5) + 32"
+        unit: "°F"
         display_name: "Water Temperature"
