@@ -1,0 +1,9 @@
+2025-11-10 10:54:14 - INFO - === Starting sync for project: Clear Lake Monitoring === 
+2025-11-10 10:54:14 - INFO - Pulling latest changes from GitHub... 
+2025-11-10 10:54:14 - WARN - Pull failed: Failed to fetch upstream branch: C:\Users\ECI_LLC\Desktop\Live Data\projects\ClearLake\repo/main 
+2025-11-10 10:54:14 - INFO - New file to add: Clear_Lake_Cyrus_Brouse.dat 
+2025-11-10 10:54:15 - INFO - New file to add: Clear_Lake_Harry_Tetters.dat 
+2025-11-10 10:54:15 - INFO - New file to add: Clear_Lake_Outflow.dat 
+2025-11-10 10:54:15 - INFO - Updated project metadata 
+2025-11-10 10:54:15 - ERROR - Error in commit/push: failed to parse signature - malformed e-mail 
+2025-11-10 10:54:15 - WARN - === Sync completed but push failed === 

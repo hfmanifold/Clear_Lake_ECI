@@ -1,0 +1,9 @@
+{
+  "gage_id": "outflow",
+  "name": "Clear Lake Outflow",
+  "updated": "2025-11-10 10:54:15",
+  "time_range": {
+    "records": 17091
+  },
+  "parameters": []
+}

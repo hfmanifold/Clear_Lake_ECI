@@ -1,0 +1,58 @@
+# Clear Lake Project Configuration
+project:
+  id: "clearlake"
+  name: "Clear Lake Monitoring"
+  description: "Clear Lake water quality and level monitoring"
+  github_repo: "https://github.com/hfmanifold/Clear_Lake_ECI.git"
+
+campbell:
+  data_directory: "C:/Campbellsci/LoggerNet/Clear Lake Sites"
+  update_frequency: "every 15 minutes"
+  timestamp_column: "TIMESTAMP"
+  skip_rows: 4
+
+gages:
+  cyrus_brouse:
+    name: "Cyrus Brouse"
+    active: true
+    source_file: "Clear_Lake_Cyrus_Brouse.dat"
+    data_file: "Cyrus_Brouse.csv"
+    parameters:
+      water_level:
+        column_name: "Lvl_ft_Avg"
+        unit: "feet"
+        display_name: "Water Level"
+      temperature:
+        column_name: "Temp_C_Avg"
+        unit: "°C"
+        display_name: "Water Temperature"
+      
+  harry_tetters:
+    name: "Harry Tetters"
+    active: true
+    source_file: "Clear_Lake_Harry_Tetters.dat"
+    data_file: "Harry_Tetters.csv"
+    parameters:
+      water_level:
+        column_name: "Lvl_ft_Avg"
+        unit: "feet"
+        display_name: "Water Level"
+      temperature:
+        column_name: "Temp_C_Avg"
+        unit: "°C"
+        display_name: "Water Temperature"
+        
+  outflow:
+    name: "Clear Lake Outflow"
+    active: true
+    source_file: "Clear_Lake_Outflow.dat"
+    data_file: "Outflow.csv"
+    parameters:
+      water_level:
+        column_name: "Lvl_ft_Avg"
+        unit: "feet"
+        display_name: "Water Level"
+      temperature:
+        column_name: "Temp_C_Avg"
+        unit: "°C"
+        display_name: "Water Temperature"

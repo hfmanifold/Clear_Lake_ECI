@@ -1,0 +1,25 @@
+{
+  "project": "Clear Lake Monitoring",
+  "last_sync": "2025-11-10 10:54:15",
+  "update_frequency": "every 15 minutes",
+  "gages_summary": {
+    "cyrus_brouse": {
+      "name": "Cyrus Brouse",
+      "last_record": {},
+      "record_count": 18051,
+      "status": "Active"
+    },
+    "harry_tetters": {
+      "name": "Harry Tetters",
+      "last_record": {},
+      "record_count": 17763,
+      "status": "Active"
+    },
+    "outflow": {
+      "name": "Clear Lake Outflow",
+      "last_record": {},
+      "record_count": 17091,
+      "status": "Active"
+    }
+  }
+}
