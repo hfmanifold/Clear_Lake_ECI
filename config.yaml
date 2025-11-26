@@ -5,6 +5,12 @@ project:
   description: "Clear Lake water quality and level monitoring"
   github_repo: "https://github.com/hfmanifold/Clear_Lake_ECI.git"
 
+weather:
+  enabled: true
+  latitude: 41.737
+  longitude: -84.840
+  timezone: "America/New_York"
+
 campbell:
   data_directory: "C:/Campbellsci/LoggerNet/Clear Lake Sites"
   update_frequency: "every 15 minutes"
