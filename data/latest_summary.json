@@ -1,0 +1,39 @@
+{
+  "cyrus_brouse": {
+    "timestamp": "2025-12-04 15:00:00",
+    "values": {
+      "TIMESTAMP": "2025-12-04 15:00:00",
+      "RECORD": 129256,
+      "BattV_Min": 13.68,
+      "BattV_TMn": "2025-12-04 14:45:55",
+      "PTemp_C_Avg": -3.852,
+      "Lvl_ft_Avg": 0.877,
+      "Temp_C_Avg": 3.866
+    }
+  },
+  "harry_tetters": {
+    "timestamp": "2025-12-04 15:00:00",
+    "values": {
+      "TIMESTAMP": "2025-12-04 15:00:00",
+      "RECORD": 122828,
+      "BattV_Min": 12.64,
+      "BattV_TMn": "2025-12-04 14:49:05",
+      "PTemp_C_Avg": -2.024,
+      "Lvl_ft_Avg": 0.276,
+      "Temp_C_Avg": 0.138
+    }
+  },
+  "outflow": {
+    "timestamp": "2025-12-04 15:00:00",
+    "values": {
+      "TIMESTAMP": "2025-12-04 15:00:00",
+      "RECORD": 129613,
+      "BattV_Min": 13.19,
+      "BattV_TMn": "2025-12-04 14:58:45",
+      "PTemp_C_Avg": -2.777,
+      "Lvl_ft_Avg": 0.121,
+      "Temp_C_Avg": 0.472,
+      "Rain_in_Tot": 0
+    }
+  }
+}
