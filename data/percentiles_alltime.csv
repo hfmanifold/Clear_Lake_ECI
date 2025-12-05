@@ -1,0 +1,7 @@
+gage_id,parameter,p10,p25,p50,p75,p90,n
+cyrus_brouse,discharge,0.2,0.22,0.41,0.93,1.91,95813
+cyrus_brouse,temperature_f,38.21,42.31,54.09,63.68,67.05,95813
+harry_tetters,discharge,0.05,0.08,0.18,0.5,1.28,89468
+harry_tetters,temperature_f,33.3,39.41,54.64,66.33,70.88,89468
+outflow,discharge,0,0,0.86,6.33,12.68,96181
+outflow,temperature_f,36.28,41.94,58.05,74.43,79.48,96181
