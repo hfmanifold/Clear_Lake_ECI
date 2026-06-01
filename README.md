@@ -20,5 +20,5 @@ Data is updated every 15 minutes
 View live dashboard at: 
 
 ---
-*Last updated: 2026-05-31 23:07:04*
+*Last updated: 2026-06-01 00:07:04*
 
